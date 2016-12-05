@@ -74,10 +74,10 @@ gulp.task('scripts', function () {
   }
 
   var files = [
+    './bower_components/fabric.js/dist/fabric.min.js',
     srcDir + '/js/core/bootstrap.js',
     srcDir + '/js/core/darkroom.js',
     srcDir + '/js/core/*.js',
-    // srcDir + '/js/plugins/*.js',
     srcDir + '/js/plugins/darkroom.select.js',
     srcDir + '/js/plugins/darkroom.history.js',
     srcDir + '/js/plugins/darkroom.rotate.js',
